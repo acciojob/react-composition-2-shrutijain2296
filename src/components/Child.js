@@ -11,7 +11,7 @@ const Child = ({show, setShow}) =>{
         <div>
             {
                  (show && (
-                    <div className="child">
+                    <div className="child" onClick={close}>
                         <button className="model-close" onClick = {close}>Close</button>
                         <p className="model-p">This is the content of the modal.</p>
                     </div>
