@@ -10,7 +10,7 @@ const Model = () =>{
 
 
     return(
-        <div className = "modal-overlay">
+        <div className = "model-overlay">
             <button onClick={showChild}>Show Modal</button>
             <Child  show = {show} setShow = {setShow}/>
         </div>
